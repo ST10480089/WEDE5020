@@ -1,0 +1,80 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+User-agent: *
+allow: /
+sitemap: //yourwebsite.com/sitemap.xml
+  <url>
+    <loc>https://yourwebsite.com/Homepage.html</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://yourwebsite.com/About Us.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://yourwebsite.com/Our Work.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://yourwebsite.com/Get Involved.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://yourwebsite.com/Contact Us.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  User-agent: *
+  Disallow:
+  sitemap: https://www.yourdomain.com/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Home page -->
+  <url>
+    <loc>https://www.yourdomain.com/</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://www.yourdomain.com/about</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Our work page -->
+  <url>
+    <loc>https://www.yourdomain.com/our work</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us page -->
+  <url>
+    <loc>https://www.yourdomain.com/contact</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+   </url>
+
+    <!--Get involved page -->
+  <url>
+     <loc>https://www.yourdomain.com/contact</loc>
+     <lastmod>2025-11-19</lastmod>
+     <changefreq>monthly</changefreq>
+     <priority>0.6</priority>
+  </url>
+  
+</urlset>
+</urlset>
